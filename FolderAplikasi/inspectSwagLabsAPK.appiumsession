@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UiAutomator2"
+    },
+    {
+      "type": "text",
+      "name": "appium:appWaitActivity",
+      "value": "com.swaglabsmobileapp.*"
+    },
+    {
+      "type": "file",
+      "value": "C:\\Users\\LENOVO\\codes\\appium-2\\apk\\DemoApk.apk",
+      "name": "appium:app"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "hostname": "localhost",
+      "port": "4723"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "mobitru": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
